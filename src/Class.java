@@ -18,10 +18,14 @@ public class Class {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Do you need any accomadtions for your seat?");
-        System.out.println("For example, being in the front because you cant see well");
+        System.out.println("Do you need any accomodations for your seat?");
+        System.out.println("For example, being in the front because you can't see well");
         String yesno = scanner.nextLine();
-        String accomadation = scanner.nextLine();
+        String accomodation = scanner.nextLine();
+
+        if (yesno.equals("yes")) {
+            System.out.println("This is your new seat: ");
+        }
 
     }
 
