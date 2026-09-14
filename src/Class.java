@@ -16,5 +16,13 @@ public class Class {
         int col = (int) (Math.random()*4);
         return ("["+row+","+col+"]");
     }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Do you need any accomadtions for your seat?");
+        System.out.println("For example, being in the front because you cant see well");
+        String yesno = scanner.nextLine();
+        String accomadation = scanner.nextLine();
+
+    }
 
 }
